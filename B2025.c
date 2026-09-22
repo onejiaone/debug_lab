@@ -1,9 +1,8 @@
 #include<stdio.h>
-int main(){
-    printf("  *\n");
-    printf(" ***\n");
-    printf("*****\n");
-    printf(" ***\n");
-    printf("  *\n");
-    return 0;
+int main() {
+  int a,int b;
+  while(scanf("%d%d",&a,&b)!=EOF){
+  printf("%d",a+b);
+  }
+  return 0;
 }
