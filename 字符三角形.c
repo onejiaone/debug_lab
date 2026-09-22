@@ -1,9 +1,9 @@
 #include<stdio.h>
-int main(){
-    while(scanf("*")!=EOF){
-        printf("*\n");
-        printf("***\n");
-        printf("*****\n");
-    }
-    return 0;
+int main(){    
+char m;    
+scanf("%c\n", &m);    
+printf("  %c\n",m);    
+printf(" %c%c%c\n", m,m,m);    
+printf("%c%c%c%c%c\n",m,m,m,m,m);      
+return 0;
 }
